@@ -1,18 +1,67 @@
+body{
+    color: blue;
+}
+
 #topSec{
 height: 1673px;
 }
 
-#restTop{
-    height: 773px;
-    background-color: aqua;
+#topImage{
+height: 900px;
 }
 
-#navBar{
+#overlay{
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:black; /* Black background with opacity */
+    opacity: 0.5;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
 
-}
-
-#skillsTabs{
-    height:1170px ;
-    width: 380px;
+#aboutSec{
     background-color: black;
+    position: absolute;
+    width: 400px;
+    height: 232px;
+    left: 913px;
+    top: 310px;
+    overflow: visible;
+}
+
+#helloI{
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.5px;
+}
+
+#rajG{
+    white-space: nowrap;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgba(255,255,255,1);
+}
+
+#pro{
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.5px;
 }
