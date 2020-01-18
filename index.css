@@ -10,23 +10,7 @@ height: 1673px;
 height: 900px;
 }
 
-#overlay{
-    position: fixed; /* Sit on top of the page content */
-    display: block; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:black; /* Black background with opacity */
-    opacity: 0.5;
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-  }
-
 #aboutSec{
-    background-color: black;
     position: absolute;
     width: 400px;
     height: 232px;
@@ -64,4 +48,52 @@ height: 900px;
     font-size: 20px;
     color: rgba(255,255,255,1);
     letter-spacing: 0.5px;
+}
+
+.Rectangle_8 {
+    position: absolute;
+    overflow: visible;
+    width: 170px;
+    height: 55px;
+    left: 3px;
+    top: 177px;
+}
+
+#Get_Started {
+    position: absolute;
+    left: 52px;
+    top: 195px;
+    overflow: visible;
+    width: 71px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+
+#topLower{
+    height: 773px;
+    width: 1600px;
+}
+
+#myskills{
+    width: 1170px;
+    height: 380px;
+    margin-top: 33px;
+    margin-left: 160px;
+}
+
+#infoMe{
+    height: 380px;
+    width: 464px;
+    background-color: rgb(83, 73, 73);
+}
+
+#skillBars{
+    height: 380px;
+    width: 706px;
+    background-color: indigo;
 }
