@@ -98,18 +98,24 @@ border: 1px solid black;
     height: 380px;
     width: 1170px;
     margin-top: 33px;
-    margin-left: 160px;
-    border: 1px solid yellow;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid yellow;*/
 }
 
 #infoMe{
     height: 380px;
     width: 464px;
     float: left;
+    /*border: 10px solid pink;*/
 }
 
 #skillBars{
     height: 380px;
+    width: 702px;
+    border: 1px solid green;
+    float: right;
+    display:block;
 }
 
 #mainText{
@@ -117,6 +123,7 @@ border: 1px solid black;
     width: 365px;
     text-align: left;
     font-family:'Roboto', sans-serif;
+    /*border: 1px solid black;*/
 }
 
 button{
@@ -124,5 +131,45 @@ button{
 }
 
 #hireButton{
+    height: 55px;
+    width: 170px;
+    display: block;
+    margin:10% 0;
+    background-color: rgb(160,211,52);
+    color: rgba(255,255,255,1);
+}
 
+.barSec{
+    height: 50%;
+    /*border: 1px solid red;*/
+}
+
+.barSkill{
+    width: 45%;
+    height: 90%;
+    margin: auto;
+    display: inline-block;
+    border: 1px solid red;
+}
+
+.rightF{
+    float: right;
+}
+
+.skillLogo{
+    width: 30%;
+    height: 50%;
+    display: inline-block;
+    border: 1px solid green;
+}
+
+.skillInfo{
+    width: 68%;
+    height: 100%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.skillImg{
+    
 }
