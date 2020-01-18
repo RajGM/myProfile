@@ -1,5 +1,5 @@
 body{
-    color: blue;
+    color: #6E6E6E;
 }
 
 #topSec{
@@ -8,6 +8,21 @@ height: 1673px;
 
 #topImage{
 height: 900px;
+border: 1px solid black;
+}
+
+#navBar{
+    z-index: 2;
+    /*position: relative;
+    top: 140px;
+    opacity: 0.5;
+    */
+}
+
+#topPic{
+   position: absolute;
+  top: 0px;
+  z-index: -1;
 }
 
 #aboutSec{
@@ -67,7 +82,7 @@ height: 900px;
     width: 71px;
     white-space: nowrap;
     text-align: left;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -76,24 +91,38 @@ height: 900px;
 
 #topLower{
     height: 773px;
-    width: 1600px;
+    border: 1px solid black;
 }
 
 #myskills{
-    width: 1170px;
     height: 380px;
+    width: 1170px;
     margin-top: 33px;
     margin-left: 160px;
+    border: 1px solid yellow;
 }
 
 #infoMe{
     height: 380px;
     width: 464px;
-    background-color: rgb(83, 73, 73);
+    float: left;
 }
 
 #skillBars{
     height: 380px;
-    width: 706px;
-    background-color: indigo;
+}
+
+#mainText{
+    height: 318px;
+    width: 365px;
+    text-align: left;
+    font-family:'Roboto', sans-serif;
+}
+
+button{
+    border: none;
+}
+
+#hireButton{
+
 }
