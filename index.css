@@ -20,7 +20,7 @@ border: 1px solid black;
 }
 
 #topPic{
-   position: absolute;
+  position: absolute;
   top: 0px;
   z-index: -1;
 }
@@ -157,19 +157,94 @@ button{
 }
 
 .skillLogo{
-    width: 30%;
-    height: 50%;
+    width: 29%;
+    height: 100%;
     display: inline-block;
-    border: 1px solid green;
+    border: 3px solid green;
 }
 
 .skillInfo{
     width: 68%;
     height: 100%;
     display: inline-block;
-    border: 1px solid black;
+    text-align: left;
+    border: 3px solid black;
 }
 
 .skillImg{
     
+}
+
+#middleSec{
+    height: 875px;
+    border: 1px solid red;
+}
+
+#lowerMiddle{
+    height: 1460px;
+    border: 1px solid yellow;
+}
+
+/*
+.Path_2836 {
+    overflow: visible;
+    position: absolute;
+    width: 1600px;
+    height: 1460px;
+    left: 0px;
+    top: 2712px;
+    transform: matrix(1,0,0,1,0,0);
+}
+*/
+
+#myPortfolio{
+    position: absolute;
+    left: 717px;
+    top: 2933.167px;
+    overflow: visible;
+    width: 169px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(74,74,74,1);
+}
+
+#portIntro{
+    position: absolute;
+    left: 535px;
+    top: 2991.167px;
+    overflow: visible;
+    width: 532px;
+    height: 51px;
+    line-height: 27px;
+    margin-top: -6.5px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(110,110,110,1);
+}
+
+#projectsDomainBar{
+    position: absolute;
+    left: 582px;
+    top: 3088px;
+    overflow: visible;
+    width: 500px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(74,74,74,1);
+    border: 1px solid black;
+}
+
+.projectDomain{
+    display: inline-block;
+    border: 1px solid green;
 }
