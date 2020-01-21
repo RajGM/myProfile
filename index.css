@@ -6,6 +6,20 @@ body{
 height: 1673px;
 }
 
+#navBarTransparent{
+  opacity: 0.5;
+  color: #000000;
+}
+
+.navBarTextDark{
+    color: black;
+    opacity: 1;
+}
+
+#darker{
+    opacity: 1;
+}
+
 #topImage{
 height: 900px;
 border: 1px solid black;
