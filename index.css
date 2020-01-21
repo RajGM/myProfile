@@ -339,9 +339,52 @@ button{
     height: 100%;
     width: 20%;
     display: inline-block;
+    border: 1px solid navy;
+}
+
+#imgFooterPic1{
     background-image: url(./public/phone.svg);
     background-repeat: no-repeat;
-    border: 1px solid navy;
+}
+
+#imgFooterPic2{
+    background-image: url(./public/phone.svg);
+    background-repeat: no-repeat;
+}
+
+#imgFooterPic3{
+    background-image: url(./public/phone.svg);
+    background-repeat: no-repeat;
+}
+
+#imgFooterPic4{
+    background-image: url(./public/phone.svg);
+    background-repeat: no-repeat;
+}
+
+#imgFooterPic5{
+    background-image: url(./public/mail1.svg);
+    background-repeat: no-repeat;
+}
+
+#imgFooterPic6{
+    background-image: url(./public/adress.svg);
+    background-repeat: no-repeat;
+}
+
+#imgFooterPic7{
+    background-image: url(./public/linkedin.svg);
+    background-repeat: no-repeat;
+}
+
+#imgFooterPic8{
+    background-image: url(./public/github.svg);
+    background-repeat: no-repeat;
+}
+
+#imgFooterPic9{
+    background-image: url(./public/coursera.svg);
+    background-repeat: no-repeat;
 }
 
 .txtConFooter{
