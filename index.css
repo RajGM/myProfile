@@ -1,9 +1,10 @@
 body{
     color: #6E6E6E;
+    height: 4619px;
 }
 
 #topSec{
-height: 1673px;
+height: 36.2%;
 }
 
 #navBarTransparent{
@@ -104,28 +105,28 @@ border: 1px solid black;
 }
 
 #topLower{
-    height: 500px;
+    height: 29.8%;
     border: 1px solid black;
 }
 
 #myskills{
-    height: 380px;
+    height: 76%;
     width: 1170px;
     margin-top: 33px;
     margin-left: auto;
     margin-right: auto;
-    /*border: 1px solid yellow;*/
+    border: 1px solid yellow;
 }
 
 #infoMe{
-    height: 380px;
+    height: 100%;
     width: 464px;
     float: left;
-    /*border: 10px solid pink;*/
+    border: 3px solid pink;
 }
 
 #skillBars{
-    height: 380px;
+    height: 100%;
     width: 702px;
     border: 1px solid green;
     float: right;
@@ -133,7 +134,7 @@ border: 1px solid black;
 }
 
 #mainText{
-    height: 318px;
+    height: 100%;
     width: 365px;
     text-align: left;
     font-family:'Roboto', sans-serif;
@@ -145,7 +146,7 @@ button{
 }
 
 #hireButton{
-    height: 55px;
+    height: 15.5%;
     width: 170px;
     display: block;
     margin:10% 0;
@@ -188,12 +189,12 @@ button{
 }
 
 #middleSec{
-    height: 875px;
+    height: 18.9%;
     border: 1px solid red;
 }
 
 #lowerMiddle{
-    height: 1460px;
+    height: 31.6%;
     border: 1px solid yellow;
 }
 
@@ -224,6 +225,7 @@ button{
     border: 1px solid yellow;
     margin: auto;
     text-align: center;
+    border: 1px solid black;
 }
 
 .domainText{
@@ -242,6 +244,33 @@ button{
     border: 1px solid black;
     width: 1350px;
     margin: auto;
+    border: 1px solid green;
+}
+
+#img1{
+    height:400px;
+    width:370px;
+}
+
+#img2{
+    height:250px;
+    width:370px;
+}
+#img3{
+    height:400px;
+    width:370px;
+}
+#img4{
+    height:250px;
+    width:370px;
+}
+#img5{
+    height:400px;
+    width:370px;
+}
+#img6{
+    height:250px;
+    width:370px;
 }
 
 .imgC{
@@ -250,13 +279,13 @@ button{
 }
 
 #workTogether{
-    height: 251px;
+    height: 5.4%;
     background-color: rgba(250,250,255,1);
     border: 1px solid black;
 }
 
 #footerWork{
-    height: 100px;
+    height: 40%;
     width: 70%;
     display: block;
     border: 1px solid red;
@@ -277,7 +306,7 @@ button{
 #finalB{
     float: right;
     width: 200px;
-    height: 60px;
+    height: 60%;
     margin-top: 20px;
     background-color: rgb(160, 211, 52);
     text-align: center;
@@ -289,7 +318,7 @@ button{
 }
 
 #footerTab{
-    height: 300px;
+    height: 6.4%;
     overflow: hidden;
     background-image: linear-gradient(to left,#7A39DB,#6048FF);
 }
@@ -332,7 +361,7 @@ button{
 }
 
 #creditsTab{
-    height: 60px;
+    height: 1.29%;
     width: 100%;
     color: black;
     text-align: center;
