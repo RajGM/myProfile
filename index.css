@@ -22,7 +22,8 @@ height: 36.2%;
 }
 
 #topImage{
-height: 900px;
+height: 53.79%;
+width: 1600px;
 border: 1px solid black;
 }
 
@@ -42,11 +43,13 @@ border: 1px solid black;
 
 #aboutSec{
     position: absolute;
-    width: 400px;
-    height: 232px;
-    left: 913px;
-    top: 310px;
+    width: 22%;
+    height: 25.7%;
+    top: 32%;
+    left: 48%;
     overflow: visible;
+    z-index: 2;
+    border: 1px solid black;
 }
 
 #helloI{
