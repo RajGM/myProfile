@@ -400,8 +400,7 @@ button{
 #creditsTab{
     height: 1.29%;
     width: 100%;
-    color: black;
     text-align: center;
+    color: black;
     border: 1px solid yellow;
 }
-
