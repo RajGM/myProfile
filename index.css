@@ -1,17 +1,12 @@
 body{
     color: #6E6E6E;
-    height: 4619px;
+    height: 3690px;
     width: 1600px;
     margin-left: 8%;
 }
 
 #topSec{
-height: 36.2%;
-}
-
-#navBarTransparent{
-  opacity: 0.5;
-  color: #000000;
+height: 34.66%;
 }
 
 .navBarTextDark{
@@ -24,15 +19,11 @@ height: 36.2%;
 }
 
 #topImage{
-height: 53.79%;
+height: 70.31%;
 }
 
 #navBar{
     z-index: 2;
-    /*position: relative;
-    top: 140px;
-    opacity: 0.5;
-    */
 }
 
 #topPic{
@@ -107,11 +98,11 @@ height: 53.79%;
 }
 
 #topLower{
-    height: 29.8%;
+    height: 28.68%;
 }
 
 #myskills{
-    height: 76%;
+    height: 100%;
     width: 61.5%;
     margin-top: 33px;
     margin-left: auto;
@@ -182,18 +173,17 @@ button{
 }
 
 #middleSec{
-    height: 18.9%;
+    height: 23.63%;
 }
 
 #lowerMiddle{
-    height: 31.6%;
+    height: 25.01%;
 }
 
 #portMain{
-    height: 69%;
+    height: 100%;
     width: 80%;
     margin: auto;
-    margin-top: 12%;
     background-color: rgba(250,250,255,1);
 }
 
@@ -216,13 +206,13 @@ button{
 }
 
 #portPics{
-    width: 70%;
     height: 80%;
+    width: 70%;
     margin: auto;
 }
 
 #img1{
-    height:50%;
+    height:45%;
     width:33%;
 }
 
@@ -232,7 +222,7 @@ button{
 }
 
 #img3{
-    height:50%;
+    height:45%;
     width:33%;
 }
 
@@ -242,7 +232,7 @@ button{
 }
 
 #img5{
-    height:50%;
+    height:45%;
     width:33%;
 }
 
@@ -256,7 +246,7 @@ button{
 }
 
 #workTogether{
-    height: 5.4%;
+    height: 6.74%;
     background-color: rgba(250,250,255,1);
     border: 1px solid black;
 }
@@ -294,7 +284,7 @@ button{
 }
 
 #footerTab{
-    height: 6.4%;
+    height: 7.99%;
     overflow: hidden;
     background-image: linear-gradient(to left,#7A39DB,#6048FF);
 }
@@ -375,7 +365,7 @@ button{
 }
 
 #creditsTab{
-    height: 1.29%;
+    height: 1.86%;
     width: 100%;
     text-align: center;
     color: black;
